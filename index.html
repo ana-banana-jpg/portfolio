@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>ana guo</title>
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="visually-hidden">Header</h2>
+        <div class="wrapper">
+            <nav class="header__nav">
+                <h2 class="visually-hidden">Navigation</h2>
+                <a href="/" class="header__home">
+                    ana guo
+                    <span class="visually-hidden">(to home page)</span>
+                </a>
+                <a href="#contact" class="header__social underline" title="Contact">
+                    contact
+                </a>
+                <a title="Resume"
+                    href="https://drive.google.com/file/d/1PS4vGplGefsHzU8iENHH1-8-hih5uwXB/view?usp=sharing"
+                    target="_blank" class="header__social underline">
+                    Resume
+                </a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="wrapper hero__wrapper">
+                <div class="hero__content">
+                    <picture>
+                        <img class="hero__image one" src="/assets/images/figure-on-rings-1.png" alt="hero image"
+                            id="hero-image" width="799px" height="531px" onmouseover="hoverHeroImage()"
+                            onmouseleave="stopHoverHeroImage()" />
+                    </picture>
+                    <div class="hero__text">
+                        <p class="hero__location">📍 California, USA</p>
+                        <h1 class="hero__headline header-xxl">
+                            hi, I'm <span>Ana Guo</span>!
+                        </h1>
+                        <p class="hero__description">
+                            I'm a software & frontend developer with a
+                            passion for combining creativity and interactivity to create exciting and accessible apps. I am passionate about learning, designing, developing, and taking on challenges!
+                            <br/>
+                            <br/>
+
+                            This page is still in progress, but feel free to contact me!
+                        </p>
+                        <a href="#contact" class="hero__contact underline">Contact me</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <div class="wrapper skills__wrapper">
+                <h2 class="visually-hidden">Skills</h2>
+                <p class="skills__title">HTML</p>
+                <p class="skills__title">CSS</p>
+                <p class="skills__title">SASS</p>
+                <p class="skills__title">JavaScript</p>
+                <p class="skills__title">React</p>
+                <p class="skills__title">UI & UX Design</p>
+            </div>
+        </section>
+
+        <section class="projects">
+            <div class="wrapper projects__wrapper">
+                <h2 class="projects__headline header-xl">projects</h2>
+
+                <img class="projects__rings1" src="/assets/images/pattern-rings.svg" alt="" width="530" height="129" />
+                <img class="projects__rings2" src="/assets/images/pattern-rings.svg" alt="" width="530" height="129" />
+                <div class="projects__grid">
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-1.jpg" />
+                            <img class="projects__image" src="/assets/images/project-1.jpg"
+                                alt="screenshot of design portfolio website" width-="343" height="253" />
+                        </picture>
+                        <h3 class="projects__name">Banking Landing Page</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/banking-landing-page/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-2.jpg" />
+                            <img class="projects__image" src="/assets/images/project-2.jpg"
+                                alt="screenshot of learning platform website with different courses" width-="343"
+                                height="253" />
+                        </picture>
+                        <h3 class="projects__name">Todo List</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/todo-app/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-3.jpg" />
+                            <img class="projects__image" src="/assets/images/project-3.jpg"
+                                alt="screenshot of To Do App showing a list of active and complete tasks" width-="343"
+                                height="253" />
+                        </picture>
+                        <h3 class="projects__name">Password Generator</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/password-generator/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-4.jpg" />
+                            <img class="projects__image" src="/assets/images/project-4.jpg"
+                                alt="screenshot of video player app with grid of thumbnails of movies and TV shows"
+                                width-="343" height="253" />
+                        </picture>
+                        <h3 class="projects__name">SQL Quiz</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/sql-quiz/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-5.jpg" />
+                            <img class="projects__image" src="/assets/images/project-5.jpg"
+                                alt="screenshot of 4-player memory game with circular tiles that have symbols"
+                                width-="343" height="253" />
+                        </picture>
+                        <h3 class="projects__name">Notes App</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/notes-app/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+
+                    <div class="projects__item">
+                        <picture class="projects__picture">
+                            <source media="(min-width: 62.5em)"
+                                srcset="/assets/images/project-6.jpg" />
+                            <img class="projects__image" src="/assets/images/project-6.jpg"
+                                alt="grid of thumbnails of famous works of art" width-="343" height="253" />
+                        </picture>
+                        <h3 class="projects__name">Drawing Canvas</h3>
+                        <p class="projects__tags">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JavaScript</span>
+                        </p>
+                        <div class="projects__links">
+                            <a target="_blank" href="https://ana-banana-jpg.github.io/drawing-canvas/" class="underline">View Project</a>
+                            <!-- <a href="" class="underline">View Code</a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact bg-less-dark">
+            <div class="wrapper contact__wrapper">
+                <div class="contact__text">
+                    <h2 class="contact__headline header-xl">contact</h2>
+                    <p class="contact__description">
+                        I'd love to get to know you!
+                    </p>
+                </div>
+                <div class="header__nav">
+                    <a href="https://www.linkedin.com/in/ana-guo/" target="_blank" class="header__social">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="25" height="24" aria-labelledby="socialLinkedIn"
+                            role="img">
+                            <title id="socialLinkedIn">LinkedIn</title>
+                            <path fill="#000" fill-rule="evenodd"
+                                d="M5.551 3.304c-1.14 0-2.067.926-2.067 2.064 0 1.14.928 2.066 2.067 2.066a2.066 2.066 0 0 0 0-4.13ZM3.767 8.998v11.453h3.562L7.33 8.998H3.767Zm5.798 0V20.45l3.554.002.002-5.668c0-1.454.253-2.941 2.132-2.941 1.851 0 1.851 1.755 1.851 3.036v5.571l3.559-.001v-6.28c0-2.834-.517-5.457-4.27-5.457-1.763 0-2.916.997-3.368 1.85h-.05V8.997h-3.41ZM22.435 24H1.982c-.976 0-1.77-.777-1.77-1.732V1.731C.212.776 1.006 0 1.982 0h20.453c.98 0 1.777.776 1.777 1.73v20.538c0 .955-.797 1.732-1.777 1.732Z" />
+                        </svg>
+                    </a>
+                    <a href="mailto:ana.guo@gmail.com" target="_blank" class="header__social">
+                        <svg width="24" height="20" viewBox="0 0 70 50" fill="none" xmlns="http://www.w3.org/2000/svg"
+                            aria-labelledby="socialEmail" role="img">
+                            <title id="socialEmail">Email</title>
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M0.104492 5.78772C0.0361328 6.18152 0 6.58655 0 7V43C0 46.866 3.13379 50 7 50H63C66.8662 50 70 46.866 70 43V7C70 6.37769 69.9189 5.77429 69.7666 5.19995L36.6387 32.8889C36.4668 33.0384 36.2773 33.1611 36.0781 33.2562C35.3965 33.5825 34.6074 33.5779 33.9365 33.2629C33.7412 33.1713 33.5557 33.0534 33.3857 32.9097L0.104492 5.78772ZM2.67676 1.49396C2.81641 1.56879 2.95117 1.65808 3.0791 1.76202L34.9795 27.7585L66.8281 1.13867C65.7275 0.41864 64.4131 0 63 0H7C5.36816 0 3.86719 0.558167 2.67676 1.49396Z"
+                                fill="#000" />
+                        </svg>
+                    </a>
+                </div>
+                <img class="contact__image" id="contact-image" src="/assets/images/robot-rings-1.png"
+                    alt="robot on rings" width="637" height="279" onmouseover="hoverContactImage()"
+                    onmouseleave="stopHoverContactImage()" />
+            </div>
+            <div class="toast-container" id="toast-container"></div>
+        </section>
+    </main>
+</body>
+
+</html>
