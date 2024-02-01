@@ -57,9 +57,9 @@ function moveHeroArm() {
     img.classList.toggle('active');
 
     if (img.classList.contains('active')) {
-        img.src = "/assets/images/figure-on-rings-2.png";
+        img.src = "./assets/images/figure-on-rings-2.png";
     } else {
-        img.src = "/assets/images/figure-on-rings-1.png";
+        img.src = "./assets/images/figure-on-rings-1.png";
     }
 }
 
@@ -68,9 +68,9 @@ function moveContactArm() {
     img.classList.toggle('active');
 
     if (img.classList.contains('active')) {
-        img.src = "/assets/images/robot-rings-1.png";
+        img.src = "./assets/images/robot-rings-1.png";
     } else {
-        img.src = "/assets/images/robot-rings-2.png";
+        img.src = "./assets/images/robot-rings-2.png";
     }
 }
 
